@@ -1,0 +1,87 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.logo{
+    width:80px;
+}
+.myown-nab-bg{
+    background-image: linear-gradient(to right,#CCCCFF,hsl(180, 83%, 57%));
+}
+.my-carousel-img{
+    width: 100%;
+}
+.slider-bg-1{
+    background-image: url('banner-bg/bg-2.png');
+    background-position-y: 250px;
+    background-position-x:-100px;
+    background-repeat:no-repeat;
+
+}
+.slider-bg-2{
+    background-image: url('banner-bg/bg-1.png');
+    background-repeat:no-repeat;
+    background-position-x:-17px ;
+}
+.btn{
+    background-color:#13274F ;
+    color:white;
+    padding:8px 20px;
+    text-decoration: none;
+font-size: 16px;
+}
+.my-banner-des{
+    font-size: 14px;
+    margin:10px 0px;
+}
+.text-link{
+    color:hsl(180, 83%, 57%);
+    cursor: pointer;
+}
+.card-desc{
+    font-size: 14px;
+    color:gray;
+}
+.border-style{
+    position: relative;
+}
+.border-style::after{
+    position:absolute;
+    left:43%;
+    top:113%;
+    content: ' ';
+    width:150px;
+    height: 6px;
+    border-radius: 5px;
+    background-color: yellow;
+
+}
+
+@media screen and (max-width:568px){
+
+    .border-style::after{
+        position:absolute;
+        left:30%;
+        top:110%;
+        content: ' ';
+        width:150px;
+        height: 6px;
+        border-radius: 5px;
+        background-color: yellow;
+
+}
+}
+.my-own-style{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+@media  screen and (max-width:420px) {
+    .my-own-style{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
